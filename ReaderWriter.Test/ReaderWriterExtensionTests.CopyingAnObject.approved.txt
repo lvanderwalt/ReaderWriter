@@ -1,0 +1,39 @@
+﻿
+*original:*
+TestOwner (object)
+	Name: source
+	Inner: 
+		CopyTestChild (object)
+			Name: inner property
+	Inners: (list)
+		CopyTestChild (object)
+			Name: inner list item1
+		CopyTestChild (object)
+			Name: inner list item2
+
+
+*after cloning:*
+TestOwner (object)
+	Name: source
+	Inner: 
+		CopyTestChild (object)
+			Name: inner property
+	Inners: (list)
+		CopyTestChild (object)
+			Name: inner list item1
+		CopyTestChild (object)
+			Name: inner list item2
+
+
+*after using memento:*
+TestOwner (object)
+	Name: source
+	Inner: 
+		CopyTestChild (object)
+			Name: inner property
+	Inners: (list)
+		CopyTestChild (object)
+			Name: inner list item1
+		CopyTestChild (object)
+			Name: inner list item2
+

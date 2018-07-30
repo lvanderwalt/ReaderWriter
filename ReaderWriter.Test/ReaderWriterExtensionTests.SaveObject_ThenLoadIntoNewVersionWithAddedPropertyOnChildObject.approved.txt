@@ -1,0 +1,45 @@
+﻿
+*source:*
+TestOwner (object)
+	Name: source
+	Inner: 
+		CopyTestChild (object)
+			Name: inner property
+	Inners: (list)
+		CopyTestChild (object)
+			Name: inner list item1
+		CopyTestChild (object)
+			Name: inner list item2
+
+
+*after new version read from old source:*
+TestOwnerWithNewPropertyOnChild (object)
+	Name: source
+	Inner: 
+		CopyTestChildWithNewProperty (object)
+			Name: inner property
+			NewProp: [null]
+	Inners: (list)
+		CopyTestChildWithNewProperty (object)
+			Name: inner list item1
+			NewProp: [null]
+		CopyTestChildWithNewProperty (object)
+			Name: inner list item2
+			NewProp: [null]
+
+
+*after new version save and load:*
+TestOwnerWithNewPropertyOnChild (object)
+	Name: source
+	Inner: 
+		CopyTestChildWithNewProperty (object)
+			Name: inner property
+			NewProp: the new property
+	Inners: (list)
+		CopyTestChildWithNewProperty (object)
+			Name: inner list item1
+			NewProp: new prop
+		CopyTestChildWithNewProperty (object)
+			Name: inner list item2
+			NewProp: new prop
+

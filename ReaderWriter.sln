@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriter.Lib", "ReaderWriter.Lib\ReaderWriter.Lib.csproj", "{9B5770D8-773D-416C-90A7-B44616880CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriter.Test", "ReaderWriter.Test\ReaderWriter.Test.csproj", "{EBD7175D-D6BA-4602-BF0D-F0852EE8E772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B5770D8-773D-416C-90A7-B44616880CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5770D8-773D-416C-90A7-B44616880CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5770D8-773D-416C-90A7-B44616880CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5770D8-773D-416C-90A7-B44616880CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD7175D-D6BA-4602-BF0D-F0852EE8E772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD7175D-D6BA-4602-BF0D-F0852EE8E772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD7175D-D6BA-4602-BF0D-F0852EE8E772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD7175D-D6BA-4602-BF0D-F0852EE8E772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
