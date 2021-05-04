@@ -27,8 +27,8 @@ public class ExampleClass: ICanRead
 
   public IEnumerable<object> ReadParts(IReadFormatter formatter)
   {
-    yield return formatter.Format("Values", Values);
-    yield return formatter.Format("StringValue", StringValue);
+    yield return formatter.Format(nameof(Values), Values);
+    yield return formatter.Format(nameof(StringValue), StringValue);
   }
 
   public void ReadFrom(IReader reader, int version)
